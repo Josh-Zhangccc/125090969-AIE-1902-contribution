@@ -1,0 +1,201 @@
+{
+    "nodes": [
+        {
+            "id": "3",
+            "displayName": {
+                "zh": "3",
+                "en": "3"
+            },
+            "shortDescription": {
+                "zh": "",
+                "en": ""
+            },
+            "campusLocation": "lower",
+            "isStartingNode": false,
+            "isVisible": false,
+            "position": {
+                "x": 10.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "connectedNodes": {
+                "to": []
+            },
+            "radius": 2.0,
+            "thumbnail": "",
+            "text": {
+                "zh": {
+                    "title": "",
+                    "file": ""
+                },
+                "en": {
+                    "title": "",
+                    "file": ""
+                }
+            },
+            "images": [],
+            "audio": {
+                "zh": {
+                    "file": "",
+                    "volume": 0.0,
+                    "autoPlay": false
+                },
+                "en": {
+                    "file": "",
+                    "volume": 0.0,
+                    "autoPlay": false
+                }
+            },
+            "cameraOverride": {
+                "enabled": false,
+                "target": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "blendTime": 0.0,
+                "stayOnTarget": false,
+                "restoreAfterSeconds": 0.0
+            },
+            "autoDismissDuration": 2.0
+        },
+        {
+            "id": "1",
+            "displayName": {
+                "zh": "1",
+                "en": "1"
+            },
+            "shortDescription": {
+                "zh": "",
+                "en": ""
+            },
+            "campusLocation": "lower",
+            "isStartingNode": false,
+            "isVisible": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "connectedNodes": {
+                "to": []
+            },
+            "radius": 2.0,
+            "thumbnail": "",
+            "text": {
+                "zh": {
+                    "title": "1",
+                    "file": "Content/Text/adminBuilding/adminBuilding.zh.md"
+                },
+                "en": {
+                    "title": "",
+                    "file": ""
+                }
+            },
+            "images": [],
+            "audio": {
+                "zh": {
+                    "file": "",
+                    "volume": 0.0,
+                    "autoPlay": false
+                },
+                "en": {
+                    "file": "",
+                    "volume": 0.0,
+                    "autoPlay": false
+                }
+            },
+            "cameraOverride": {
+                "enabled": false,
+                "target": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "blendTime": 0.0,
+                "stayOnTarget": false,
+                "restoreAfterSeconds": 0.0
+            },
+            "autoDismissDuration": 0.0
+        },
+        {
+            "id": "2",
+            "displayName": {
+                "zh": "2",
+                "en": "2"
+            },
+            "shortDescription": {
+                "zh": "",
+                "en": ""
+            },
+            "campusLocation": "lower",
+            "isStartingNode": false,
+            "isVisible": false,
+            "position": {
+                "x": 5.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "connectedNodes": {
+                "to": [
+                    {
+                        "id": "1",
+                        "required": true
+                    }
+                ]
+            },
+            "radius": 2.0,
+            "thumbnail": "",
+            "text": {
+                "zh": {
+                    "title": "2",
+                    "file": "Content/Text/test.zh.md"
+                },
+                "en": {
+                    "title": "",
+                    "file": ""
+                }
+            },
+            "images": [],
+            "audio": {
+                "zh": {
+                    "file": "",
+                    "volume": 0.0,
+                    "autoPlay": false
+                },
+                "en": {
+                    "file": "",
+                    "volume": 0.0,
+                    "autoPlay": false
+                }
+            },
+            "cameraOverride": {
+                "enabled": false,
+                "target": {
+                    "x": -5.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "blendTime": 1.5,
+                "stayOnTarget": true,
+                "restoreAfterSeconds": 0.0
+            },
+            "autoDismissDuration": 2.0
+        }
+    ]
+}

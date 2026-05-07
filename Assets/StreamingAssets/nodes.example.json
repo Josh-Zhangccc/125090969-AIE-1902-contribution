@@ -1,0 +1,109 @@
+{
+  "nodes": [
+    {
+      "id": "eastGate",
+      "displayName": { "zh": "东门", "en": "East Gate" },
+      "shortDescription": {
+        "zh": "下园的主要出入口，由此开始探索校园",
+        "en": "Main entrance to the lower campus — start your tour here"
+      },
+      "campusLocation": "lower",
+      "isStartingNode": true,
+      "isVisible": true,
+      "position": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "connectedNodes": {
+        "to": [
+          { "id": "teachingBuilding", "required": true },
+          { "id": "harmoniaCollege", "required": false }
+        ]
+      },
+      "radius": 8.0,
+      "thumbnail": "Content/Thumbnails/eastGate.png",
+      "text": {
+        "zh": { "title": "东门", "file": "Content/Text/eastGate.zh.md" },
+        "en": { "title": "East Gate", "file": "Content/Text/eastGate.en.md" }
+      },
+      "images": [
+        {
+          "file": "Content/Images/eastGate_01.png",
+          "description": { "zh": "东门全景", "en": "East Gate Panorama" }
+        },
+        {
+          "file": "Content/Images/eastGate_02.png",
+          "description": { "zh": "东门夜景", "en": "East Gate at Night" }
+        }
+      ],
+      "audio": {
+        "zh": { "file": "", "volume": 1.0, "autoPlay": false },
+        "en": { "file": "", "volume": 1.0, "autoPlay": false }
+      }
+    },
+    {
+      "id": "xiangboGate",
+      "displayName": { "zh": "祥波门", "en": "Xiangbo Gate" },
+      "shortDescription": {
+        "zh": "上园的主要出入口，毗邻祥波书院",
+        "en": "Main entrance to the upper campus, near Minerva College"
+      },
+      "campusLocation": "upper",
+      "isStartingNode": true,
+      "isVisible": true,
+      "position": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "connectedNodes": {
+        "to": [
+          { "id": "adminBuilding", "required": true },
+          { "id": "universityLibrary", "required": false }
+        ]
+      },
+      "radius": 8.0,
+      "thumbnail": "Content/Thumbnails/xiangboGate.png",
+      "text": {
+        "zh": { "title": "祥波门", "file": "Content/Text/xiangboGate.zh.md" },
+        "en": { "title": "Xiangbo Gate", "file": "Content/Text/xiangboGate.en.md" }
+      },
+      "images": [
+        {
+          "file": "Content/Images/xiangboGate_01.png",
+          "description": { "zh": "祥波门全景", "en": "Xiangbo Gate Panorama" }
+        }
+      ],
+      "audio": {
+        "zh": { "file": "", "volume": 1.0, "autoPlay": false },
+        "en": { "file": "", "volume": 1.0, "autoPlay": false }
+      }
+    },
+    {
+      "id": "path_eastGate_xiangboGate_01",
+      "displayName": { "zh": "", "en": "" },
+      "shortDescription": { "zh": "", "en": "" },
+      "campusLocation": "lower",
+      "isStartingNode": false,
+      "isVisible": false,
+      "position": { "x": 50, "y": 5, "z": 100 },
+      "rotation": { "x": 10, "y": 180, "z": 0 },
+      "connectedNodes": {
+        "to": [
+          { "id": "xiangboGate", "required": true }
+        ]
+      },
+      "radius": 3.0,
+      "thumbnail": "",
+      "text": {
+        "zh": { "title": "", "file": "" },
+        "en": { "title": "", "file": "" }
+      },
+      "images": [],
+      "audio": {
+        "zh": { "file": "Content/Audio/path_eastGate_xiangboGate_01.zh.mp3", "volume": 1.0, "autoPlay": true },
+        "en": { "file": "Content/Audio/path_eastGate_xiangboGate_01.en.mp3", "volume": 1.0, "autoPlay": true }
+      },
+      "cameraOverride": {
+        "enabled": true,
+        "target": { "x": 0, "y": 10, "z": 200 },
+        "blendTime": 2.0
+      }
+    }
+  ]
+}
